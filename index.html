@@ -1,14 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <link rel="stylesheet" href="css/index.css">
+    <link preconnect rel="stylesheet" href="css/index.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>StockHolm</title>
     <meta name="description" content="Esta es la página de stockholm en la que aplicamos la metodología BEM">
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/remixicon@4.9.1/fonts/remixicon.min.css" rel="stylesheet">
 </head>
 <body>
@@ -26,7 +26,7 @@
     <main class="main ">
         <section class="main__section">
            <div class="main__div"><img src="./media/Masonry-list-img-1-500x500.jpg" alt="one image"></div>
-           <div class="main__div"><img src="./media/Masonry-list-img-2-500x500.jpg" alt="twho image"></div>
+           <div class="main__div"><img src="./media/Masonry-list-img-2-500x500.jpg" alt="twho image" fetchpriority="high" loading="eager"></div>
            <div class="main__div tall"><img src="./media/Masonry-list-img-3-500x1000.jpg" alt="three image"></div>
            <div class="main__div"><img src="./media/Masonry-list-img-4-500x500.jpg" alt="four image"></div>
            <div class="main__div square"><img src="./media/Masonry-list-img-5-1000x1000.jpg" alt="five image"></div>
@@ -42,10 +42,10 @@
            <div class="main__div"><img src="./media/Masonry-list-img-15-500x500.jpg"  alt="fiveteen image"></div>
            <div class="main__div"><img src="./media/Masonry-list-img-16-500x500.jpg" alt="sixteen image"></div>
            <div class="main__div width"><img src="./media/Masonry-list-img-17-1000x500.jpg" alt="seventeen image"></div>
-           <div class="main__div"><img src="./media/Masonry-list-img-18-500x500.jpg" alt="eighteen image"></div>
-           <div class="main__div"><img src="./media/Masonry-list-img-19-500x500.jpg" alt="nineteen image"></div>
-           <div class="main__div"><img src="./media/Masonry-list-img-20-500x500.jpg" alt="twenty image"></div>
-           <div class="main__div"><img src="./media/Masonry-list-img-21-500x500.jpg" alt="twenty one image"></div>
+           <div class="main__div"><img src="./media/Masonry-list-img-18-500x500.jpg" alt="eighteen image"fetchpriority="auto" loading="lazy"></div>
+           <div class="main__div"><img src="./media/Masonry-list-img-19-500x500.jpg" alt="nineteen image"fetchpriority="auto" loading="lazy"></div>
+           <div class="main__div"><img src="./media/Masonry-list-img-20-500x500.jpg" alt="twenty image" fetchpriority="auto" loading="lazy"></div>
+           <div class="main__div"><img src="./media/Masonry-list-img-21-500x500.jpg" alt="twenty one image" fetchpriority="auto" loading="lazy"></div>
         </section>
     </main>
 
